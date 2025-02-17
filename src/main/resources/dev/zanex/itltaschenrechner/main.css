@@ -1,0 +1,44 @@
+.container {
+    -fx-background-color: #2E2E2E;
+    -fx-alignment: center;
+}
+
+.display-label {
+    -fx-font-size: 32px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #444;
+    -fx-padding: 5px 15px;
+    -fx-min-width: 270px;
+    -fx-alignment: center-right;
+}
+
+.button {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #555;
+    -fx-background-radius: 5px;
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-border-color: #777;
+    -fx-border-width: 1px;
+}
+
+.button:hover {
+    -fx-background-color: #777;
+}
+
+.button:pressed {
+    -fx-background-color: #999;
+}
+
+.blue {
+    -fx-background-color: #1E90FF;
+}
+
+.blue:hover {
+    -fx-background-color: #1C86EE;
+}
+
+.blue:pressed {
+    -fx-background-color: #1874CD;
+}
